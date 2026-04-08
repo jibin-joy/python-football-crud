@@ -1,5 +1,8 @@
 import sqlite3
 
 def connect_db():
-    conn = sqlite3.connect("football.db")
-    return conn
+    try:
+        conn = sqlite3.connect("football.db")
+        return conn
+    except Exception as e:
+        print("❌ Database connection error:", e)

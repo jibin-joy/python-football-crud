@@ -25,5 +25,7 @@ while True:
     elif choice == "5":
         search_player()
     elif choice == "6":
+        print("👋 Exiting...")
         break
-        print("Invalid choice")
+    else:
+        print("❌ Invalid choice")
