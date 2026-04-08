@@ -1,5 +1,5 @@
 from player import create_table
-from controller import add_player, view_players, update_player, delete_player
+from controller import add_player, view_players, update_player, delete_player, search_player
 
 create_table()
 
